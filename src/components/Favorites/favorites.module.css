@@ -1,0 +1,84 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(5, 128, 199);
+  color: aliceblue;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  padding: 20px;
+  width: 1300px;
+  height: 400px;
+  margin: 5px;
+  background: rgba(26, 29, 34, 0.47);
+  box-shadow: 8px -8px 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(12.5px);
+
+  border-radius: 24px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  margin: 7px;
+  /* margin-bottom: 20px; */
+}
+
+.flex {
+  display: flex;
+  margin-left: 25px;
+}
+
+.info {
+  /* margin-top: -25px; */
+  margin: -25px 10px 10px;
+}
+.year {
+  margin: 10px;
+}
+
+.genres {
+  margin: 10px;
+}
+
+.overview {
+  margin: 10px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+.rating {
+  margin: 10px;
+}
+.pic {
+  /* height: 300px;
+  width: 250px; */
+}
+
+.delBTN {
+  height: 30px;
+  width: 200px;
+  color: rgb(255, 255, 255);
+  border: 3px solid white;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px;
+
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.delBTN:hover {
+  color: red;
+}

@@ -1,0 +1,119 @@
+.header {
+  /* position: absolute; */
+  background: linear-gradient(
+    90.53deg,
+    rgba(0, 0, 0, 0.75) 0.45%,
+    rgba(102, 80, 165, 0.75) 105.51%
+  );
+}
+
+.link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #a1b1cb;
+  cursor: pointer;
+}
+
+.logo {
+  margin-left: 15px;
+}
+
+.container {
+  display: flex;
+  height: 93px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 51px;
+}
+
+.search {
+  height: 40px;
+}
+
+.login {
+  padding: 5px;
+  border: 3px solid rgb(255, 255, 255);
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  width: 70px;
+  margin-right: 15px;
+}
+.login:hover {
+  border: 3px solid rgb(245, 209, 6);
+  color: rgb(245, 209, 6);
+
+  cursor: pointer;
+}
+.login:active {
+  transform: translate(2px, 2px);
+}
+
+.account {
+  position: absolute;
+  background-color: rgb(241, 23, 231);
+  border: 4px solid rgb(3, 3, 3);
+  border-radius: 10px;
+  top: 65px;
+  right: 20px;
+  width: 250px;
+  height: 350px;
+  padding: 2px;
+}
+
+.nickname {
+  padding: 5px;
+  margin: 10px;
+  margin-right: 15px;
+  color: rgb(238, 238, 9);
+  border: 3px solid rgb(236, 221, 6);
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+.nickname:hover {
+  border: 3px solid rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.WatchList {
+  background-color: rgb(221, 151, 218);
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  width: 250px;
+  height: 40px;
+}
+.WatchList:hover {
+  background-color: rgb(219, 0, 208);
+}
+
+.popUp {
+  height: 70px;
+  width: 170px;
+  position: absolute;
+  top: 1px;
+  right: 10px;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  overflow: auto;
+  scrollbar-width: thin;
+
+  scrollbar-color: #999999 #dddddd;
+  color: black;
+}

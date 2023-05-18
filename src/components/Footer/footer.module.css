@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  color: white;
+  height: 250px;
+  width: 1200px;
+
+  list-style: none;
+
+  /* font-family: "Proxima Nova";
+  font-style: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px; */
+  text-transform: uppercase;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  box-sizing: border-box;
+  right: 23.68%;
+  bottom: 9.4%;
+  opacity: 0.25;
+  border: 1px solid #ffffff;
+  border-radius: 50%; /* Use 50% to create a circle */
+  width: 39px; /* Adjust the width to match your element */
+  height: 39px; /* Adjust the height to match your element */
+}
+
+.oneMoreFuckingDiv {
+  display: flex;
+}
+
+.social {
+  /* display: flex; */
+}

@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container img {
+  height: 400px;
+  width: 300px;
+}
+
+.movieInfo {
+  display: flex;
+  color: beige;
+
+  background: rgba(45, 90, 167, 0.47);
+  box-shadow: 8px -8px 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(12.5px);
+  border-radius: 24px;
+
+  margin: 20px;
+  padding: 20px;
+}
+
+.imgAndTitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+
+  margin: 10px;
+  color: #ffffff;
+}
+.imgAndTitle img {
+  border: 3px solid honeydew;
+
+  border-radius: 10px;
+  width: 450px;
+  height: 450px;
+  font-size: 32px;
+}
+.title {
+  margin: 10px;
+  margin-left: 20px;
+  font-size: 22px;
+}
+
+.overview {
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+  max-width: 450px;
+  padding: 5px;
+}
+
+.cast {
+  margin: 5px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+}
+.castWrapper {
+  display: flex;
+  position: relative;
+  background: rgba(45, 90, 167, 0.47);
+  box-shadow: 8px -8px 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(12.5px);
+  border-radius: 24px;
+  overflow: hidden;
+  margin: 20px;
+  padding: 20px;
+
+  overflow-x: auto;
+  scrollbar-width: thin;
+
+  scrollbar-color: #999999 #dddddd;
+}
+
+.xh2 {
+  margin-left: 550px;
+  color: white;
+}
+
+.youTube {
+  position: absolute;
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 2px;
+  top: 20px;
+  right: 30px;
+}
+
+.info {
+  position: absolute;
+  bottom: 100px;
+  right: 300px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  color: white;
+}
+.info img {
+  margin-top: 4px;
+  height: 30px;
+  width: 50px;
+}
+.rating {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 24px;
+
+  color: #ffc907;
+}
+.genres {
+  margin: 4px;
+  margin-bottom: 8px;
+}
+.year {
+  margin-left: 5px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.pic {
+  border: 3px solid white;
+  border-radius: 7px;
+  color: white;
+  padding: 1px;
+}
